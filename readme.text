@@ -1,0 +1,18 @@
+New Classed added
+    - Animal
+    - Carnivore
+    - Omnivore
+
+Animal Class
+    - inherits from Lifeform class
+    - Herbivore, Carnivore and Omnivore class inherit from Animal class
+    - has move() and eat() methods and initalizes animals' lifespan
+
+Lifeform Class
+    - has methods that count how many animals are in the neighbouring cells
+
+Methods
+    - canGiveBirth() is added to Herbivore, Carnivore and Omnivore class 
+      to check if the cells satisfy their own conditions
+    - giveBirth() is added to Herbivore, Carnivore and Omnivore class
+      to give birth when the conditions are satisfied
